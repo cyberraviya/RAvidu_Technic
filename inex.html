@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>
+      RAVIDU|TECHNIC
+    </title>
+    <link rel="icon" href="RT.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+  margin-left: 510px;
+  margin-top: 30px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(238, 231, 231);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+.logo1{
+  background-image: url(RT.jpeg);
+  width: 220px;
+  height: 220px;
+  border-radius: 6000px;
+  background-size: cover;
+  margin-top: 150px;
+  margin-left: 660px;
+}
+.BG{
+  background-image: url(RT2.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  margin-top: -30px;
+}
+.M1{
+  font-size: 40px;
+  color: rgb(248, 248, 246);
+  margin-left: 20px;
+  margin-top: -410px;
+}
+.P1{
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 90px;
+  margin-top: 190px; 
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  height: 30px;
+  background-size: cover; 
+} 
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background:transparent;
+  color: rgb(28, 98, 212); 
+}
+.fa-google {
+  background:transparent;
+  color: rgb(210, 160, 24);
+}
+.fa-youtube {
+  background:transparent;
+  color: rgb(213, 23, 23);  
+}
+.fa-whatsapp {
+  background:transparent;
+  color: rgb(22, 219, 28); 
+}
+
+.fa-github {
+  background: transparent;
+  color: rgb(225, 213, 213);
+}
+.font{
+  margin-left: 120px;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.P2{
+  font-size: 20px;
+  color: rgb(29, 188, 178);
+  margin-left: 90px;
+}
+@media screen and (max-width: 650px) {
+  .BM1{
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+  </head>
+  <body class="B1">
+    <div class="BG">
+    <div class="topnav">
+      <a class="active" href="inex.html">Home</a>
+      <a href="about.html"> ABOUT</a>
+      <a href="event.html">EVENT</a>
+      <a href="about.html">  SERVICES</a>
+      <a href="contact.html"> CONTACT</a>
+    </div>
+    <div style="padding-left:16px">  
+    </div>
+    <div class="logo1"></div>
+    <div class="M1">RAVIDU TECHNIC</div>
+    <div ><p class="P1">HI,I AM RAVIDU SATHSARA<br></p>
+    <p class="P2">I'AM A FRONTEND DEVELOPPER,<br>YOUTUBER AND BINANCE EXPERT</p></div>
+   <div class="font">
+     <a href="https://www.facebook.com/profile.php?id=61550858412381" class="fa fa-facebook"></a>
+<a href="rsathsara835@gmail.com" class="fa fa-google"></a>
+<a href="https://youtube.com/@Ravindu_Technic?si=oZVXzTblBhn0BFRa" class="fa fa-youtube"></a>
+<a href="https://wa.link/3vdggl" class="fa fa-whatsapp"></a>
+<a href="https://github.com/Ravindusathsara123/BLACK-TIGERS" class="fa fa-github"></a></div>
+<button class="open-button" onclick="openForm()">CHAT NOW</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+    <label for="msg"><b>NOT FOUND AND COMING SOON</b></label>
+    <textarea placeholder="SORRY CHAT  PAGE IS COMING SOON" name="msg" required></textarea>
+   <button type="submit" class="btn">Send</button></a>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+ </div>
+  </div> 
+  </body>
+</html>
